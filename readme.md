@@ -1,4 +1,5 @@
 
+---
 
 ## سلام دانشجوهای عزیز دانشگاه قم! 👋
 
@@ -21,37 +22,43 @@
 
 ## ⚙️ چطوری استفاده کنم؟
 
-### 1. اول Geckodriver رو دانلود کن:
+### 1. اگه حوصله نصب پیش‌نیازها رو نداری، فقط فایل exe رو دانلود کن:
 
-📥 [دانلود Geckodriver از گیت‌هاب](https://github.com/mozilla/geckodriver/releases)
-📥 [همچنین می‌تونی نسخه‌ی مناسب رو از سایت PlatformBoy دریافت کنی (راحت‌تر)](https://platformboy.com/firefox-webdriver/)
+📥 [دانلود فایل exe](#)
+فقط بخش `config.txt` داخل فایل رو ویرایش کن و اطلاعاتت رو وارد کن (کد عضویت و رمز عبور). بعد برنامه رو اجرا کن و خودش تمام کتاب‌ها رو تمدید می‌کنه.
 
-نسخه‌ای که با سیستم‌عاملت سازگاره رو بگیر (مثلاً ویندوز 64 بیت) و در همون پوشه‌ای که فایل `main.py` رو گذاشتی قرار بده.
+### 2. اگر می‌خوای به صورت دستی اسکریپت رو اجرا کنی، این مراحل رو دنبال کن:
 
-### 2. پیش‌نیازها رو نصب کن:
+1. **اول Geckodriver رو دانلود کن:**
+   📥 [دانلود Geckodriver از گیت‌هاب](https://github.com/mozilla/geckodriver/releases)
+   📥 [همچنین می‌تونی نسخه‌ی مناسب رو از سایت PlatformBoy دریافت کنی (راحت‌تر)](https://platformboy.com/firefox-webdriver/)
 
-```bash
-pip install -r requirements.txt
-```
+   نسخه‌ای که با سیستم‌عاملت سازگاره رو بگیر (مثلاً ویندوز 64 بیت) و در همون پوشه‌ای که فایل `main.py` رو گذاشتی قرار بده.
 
-### 3. یه فایل `config.txt` بساز و اطلاعاتت رو بذار توش:
+2. **پیش‌نیازها رو نصب کن:**
 
-```txt
-member_code=کد عضویت شما
-password=رمز عبور شما
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### 4. فایل‌های زیر رو کنار هم بذار:
+3. **یه فایل `config.txt` بساز و اطلاعاتت رو بذار توش:**
 
-* `main.py`
-* `config.txt`
-* `geckodriver.exe`
+   ```txt
+   member_code=کد عضویت شما
+   password=رمز عبور شما
+   ```
 
-### 5. اجراش کن:
+4. **فایل‌های زیر رو کنار هم بذار:**
 
-```bash
-python main.py
-```
+   * `main.py`
+   * `config.txt`
+   * `geckodriver.exe`
+
+5. **اجراش کن:**
+
+   ```bash
+   python main.py
+   ```
 
 ---
 
@@ -97,36 +104,43 @@ No hassle, no stress. Just run it once and it renews all your borrowed books lik
 
 ## ⚙️ How to use it?
 
-### 1. Download Geckodriver:
+### 1. If you don't feel like setting things up, just download the exe file:
 
-📥 [Download Geckodriver from GitHub](https://github.com/mozilla/geckodriver/releases)
-📥 [Or from PlatformBoy (easier)](https://platformboy.com/firefox-webdriver/)
-Get the version that matches your OS (e.g., Windows 64-bit), and put it in the same folder as `main.py`.
+📥 [Download exe file](#)
+Simply edit the `config.txt` file with your credentials (member code and password), then run the program, and it will renew all your books for you.
 
-### 2. Install dependencies:
+### 2. If you prefer to run the script manually, follow these steps:
 
-```bash
-pip install -r requirements.txt
-```
+1. **Download Geckodriver:**
 
-### 3. Create a `config.txt` file with your credentials:
+   📥 [Download Geckodriver from GitHub](https://github.com/mozilla/geckodriver/releases)
+   📥 [Or from PlatformBoy (easier)](https://platformboy.com/firefox-webdriver/)
+   Get the version that matches your OS (e.g., Windows 64-bit), and put it in the same folder as `main.py`.
 
-```txt
-member_code=your_member_code
-password=your_password
-```
+2. **Install dependencies:**
 
-### 4. Make sure you have the following files in one folder:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-* `main.py`
-* `config.txt`
-* `geckodriver.exe`
+3. **Create a `config.txt` file with your credentials:**
 
-### 5. Run the script:
+   ```txt
+   member_code=your_member_code
+   password=your_password
+   ```
 
-```bash
-python main.py
-```
+4. **Make sure you have the following files in one folder:**
+
+   * `main.py`
+   * `config.txt`
+   * `geckodriver.exe`
+
+5. **Run the script:**
+
+   ```bash
+   python main.py
+   ```
 
 ---
 
