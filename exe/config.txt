@@ -1,0 +1,2 @@
+member_code=your_member_code
+password=your_password
