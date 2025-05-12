@@ -24,7 +24,7 @@
 
 ### 1. اگه حوصله نصب پیش‌نیازها رو نداری، فقط فایل exe رو دانلود کن:
 
-📥 [دانلود فایل exe](#)
+📥 [دانلود فایل exe](https://github.com/Matin-Talkhabi/qom-library-renewer/tree/main/exe)
 فقط بخش `config.txt` داخل فایل رو ویرایش کن و اطلاعاتت رو وارد کن (کد عضویت و رمز عبور). بعد برنامه رو اجرا کن و خودش تمام کتاب‌ها رو تمدید می‌کنه.
 
 ### 2. اگر می‌خوای به صورت دستی اسکریپت رو اجرا کنی، این مراحل رو دنبال کن:
@@ -106,7 +106,7 @@ No hassle, no stress. Just run it once and it renews all your borrowed books lik
 
 ### 1. If you don't feel like setting things up, just download the exe file:
 
-📥 [Download exe file](#)
+📥 [Download exe file](https://github.com/Matin-Talkhabi/qom-library-renewer/tree/main/exe)
 Simply edit the `config.txt` file with your credentials (member code and password), then run the program, and it will renew all your books for you.
 
 ### 2. If you prefer to run the script manually, follow these steps:
